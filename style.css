@@ -1,0 +1,471 @@
+
+body {
+    margin: 0;
+    background-color: white;
+}
+
+.bg-project {
+    text-align: center;
+    padding: 15px;
+}
+
+.image1 img {
+    width: 260px;
+}
+
+.heading1 {
+    font-family: "Bree Serif", serif;
+    font-size: 28px;
+    color: #1f2933;
+    margin-top: 5px;
+    margin-bottom: 8px;
+}
+
+.paragraph1 {
+    font-family: "Bree Serif", serif;
+    font-size: 14px;
+    color: #52606d;
+    margin: 0 auto 20px auto;
+    max-width: 400px;
+    line-height: 1.5;
+}
+
+
+/* First row */
+
+.projects-list {
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.projects-list img {
+    width: 160px;
+    height: 90px;
+    border-radius: 5px;
+}
+
+body {
+    margin: 0;
+    background-color: white;
+}
+
+.bg-project {
+    text-align: center;
+    padding: 15px;
+}
+
+.image1 img {
+    width: 260px;
+}
+
+.heading1 {
+    font-family: "Bree Serif", serif;
+    font-size: 28px;
+    color: #1f2933;
+    margin-top: 5px;
+    margin-bottom: 8px;
+}
+
+.paragraph1 {
+    font-family: "Bree Serif", serif;
+    font-size: 14px;
+    color: #52606d;
+    margin: 0 auto 20px auto;
+    max-width: 400px;
+    line-height: 1.5;
+}
+
+
+/* First row */
+
+.projects-list {
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.projects-list img {
+    width: 160px;
+    height: 90px;
+    border-radius: 5px;
+}
+
+
+/* Second row */
+
+.projects-list2 {
+    justify-content: center;
+    gap: 10px;
+}
+
+.projects-list2 img {
+    width: 160px;
+    height: 90px;
+    border-radius: 5px;
+}
+
+.advance-tech-cover-page-bg-container {
+    background-image: url(" https://d2clawv67efefq.cloudfront.net/ccbp-static-website/arvrbg.png");
+
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.advanced-cover-card {
+    background-color: white;
+    justify-content: end;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.heading {
+    color: #5752ab;
+    font-family: "bree sarif";
+}
+
+.paragraph {
+    color: #323f4b;
+    padding: 10px;
+    font-family: "roboto";
+}
+
+.button {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.button {
+    border-color: #d7dfe9;
+    border-radius: 10px;
+    margin: 0px;
+}
+
+.button1 {
+    margin-left: 10px;
+    color: #171f46;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.button2 {
+    background-color: #5752ab;
+    color: #ffffff;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.news-bg-container {
+    background-image: url("https://d2clawv67efefq.cloudfront.net/ccbp-static-website/newsbg.png");
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 5px;
+}
+
+.button {
+    background-color: #323f4b;
+    color: #ffffff;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+}
+
+
+/* Main Background */
+
+.bg-container {
+    width: 100%;
+    max-width: 850px;
+    margin: auto;
+    background-color: #e8f5f9;
+    min-height: 100vh;
+}
+
+
+/* ---------------- TOP CARD ---------------- */
+
+.card1 {
+    background-color: #f5426c;
+    padding: 25px 35px;
+}
+
+
+/* Keep text and image side by side */
+
+.profile-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* Left side */
+
+.profile-text {
+    width: 65%;
+}
+
+.heading1 {
+    color: white;
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+.paragraph {
+    color: white;
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+
+/* Right side image */
+
+.profile-image {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-image img {
+    width: 180px;
+    height: 250px;
+    object-fit: contain;
+}
+
+
+/* ---------------- CONTENT ---------------- */
+
+.content-section {
+    padding: 35px;
+}
+
+.section-heading {
+    color: #1c3040;
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+
+/* ---------------- IPL RECORD CARD ---------------- */
+
+.record-card {
+    display: flex;
+    align-items: center;
+
+    background-color: #ffffff;
+
+    border-radius: 8px;
+
+    margin-bottom: 30px;
+
+    overflow: hidden;
+}
+
+
+.record-image {
+    width: 35%;
+}
+
+.record-image img {
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+}
+
+
+.record-content {
+    width: 65%;
+    padding: 20px;
+}
+
+.record-content h3 {
+    color: #30485a;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.record-content p {
+    color: #687783;
+    font-size: 19px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+
+/* ---------------- VIDEOS ---------------- */
+
+.videos-container {
+    display: flex;
+    gap: 20px;
+}
+
+.video-card {
+    width: 33.33%;
+}
+
+.video-card img {
+    width: 100%;
+    height: 140px;
+
+    object-fit: cover;
+
+    border-radius: 12px;
+}
+
+.video-card p {
+    color: #536675;
+    font-size: 17px;
+    line-height: 1.4;
+    margin-top: 8px;
+}
+
+
+/* ---------------- BUTTON ---------------- */
+
+.button-container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.view-button {
+    background-color: #168ee5;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 6px;
+
+    padding: 13px 30px;
+
+    font-size: 20px;
+
+    cursor: pointer;
+}
+
+.view-button:hover {
+    background-color: #0879c5;
+}
+
+
+/* ---------------- MOBILE ---------------- */
+
+@media (max-width: 600px) {
+
+    .card1 {
+        padding: 20px;
+    }
+
+    .heading1 {
+        font-size: 32px;
+    }
+
+    .paragraph {
+        font-size: 17px;
+    }
+
+    .profile-image img {
+        width: 120px;
+        height: 190px;
+    }
+
+    .content-section {
+        padding: 25px 20px;
+    }
+
+    .record-card {
+        flex-direction: row;
+    }
+
+    .record-image {
+        width: 38%;
+    }
+
+    .record-content {
+        width: 62%;
+        padding: 12px;
+    }
+
+    .record-image img {
+        height: 170px;
+    }
+
+    .record-content h3 {
+        font-size: 20px;
+    }
+
+    .record-content p {
+        font-size: 16px;
+    }
+
+    .videos-container {
+        gap: 10px;
+    }
+
+    .video-card img {
+        height: 100px;
+    }
+
+    .video-card p {
+        font-size: 14px;
+    }
+}
+
+
+
+
+
+
+.happy-meals-bg-container {
+    background-image: url("https://d2clawv67efefq.cloudfront.net/ccbp-static-website/foodbg.png");
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+
+}
+
+.food-card {
+    background-color: #f6c56e;
+    padding: 25px;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+}
+
+.heading {
+    color: #323f4b;
+    font-family: "roboto";
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.btn {
+    background-color: #ffffff;
+    color: #323f4b;
+    font-family: "roboto";
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    width: 130px;
+    height: 42px;
+    margin-top: 20px;
+}
