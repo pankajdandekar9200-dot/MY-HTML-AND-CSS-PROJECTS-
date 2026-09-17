@@ -10,12 +10,10 @@
     <!-- HOME PAGE -->
     <div id="sectionhome" class="bg-project">
 
-        <!-- Image -->
         <div class="image1">
             <img src="https://d2clawv67efefq.cloudfront.net/ccbp-static-website/software-developer-img.png">
         </div>
 
-        <!-- Heading and Paragraph -->
         <div class="content1">
             <h1 class="heading1">MY PROJECTS</h1>
 
@@ -25,7 +23,7 @@
             </p>
         </div>
 
-        <!-- First Row -->
+        <!-- FIRST ROW -->
         <div class="projects-list d-flex flex-row">
 
             <div class="pro1">
@@ -40,7 +38,7 @@
 
         </div>
 
-        <!-- Second Row -->
+        <!-- SECOND ROW -->
         <div class="projects-list2 d-flex flex-row">
 
             <div class="pro3">
@@ -58,9 +56,9 @@
     </div>
 
 
-    <!-- PAGE 2 - ADVANCED TECHNOLOGIES -->
+    <!-- PAGE 2 -->
     <div id="advance-tech-page"
-        class="advance-tech-cover-page-bg-container d-flex flex-column d-none">
+        class="advance-tech-cover-page-bg-container d-none">
 
         <div class="advanced-cover-card">
 
@@ -89,9 +87,9 @@
     </div>
 
 
-    <!-- PAGE 3 - NEWS OF THE DAY -->
+    <!-- PAGE 3 -->
     <div id="page3"
-        class="news-bg-container d-flex flex-column justify-content-end d-none">
+        class="news-bg-container d-none">
 
         <div class="card">
 
@@ -106,8 +104,8 @@
             <p class="paragraph">
                 iB Cricket and viu together have announced the world's first
                 Virtual Reality Cricket League featuring 12 international
-                cricketers, who will be competing against each other for the
-                iB Cricket Super Over League title in Mumbai.
+                cricketers, who will be competing against each other for
+                the iB Cricket Super Over League title in Mumbai.
             </p>
 
             <div class="btn d-flex flex-row">
@@ -128,10 +126,10 @@
     </div>
 
 
-    <!-- PAGE 4 - K.L. RAHUL -->
-    <div id="page4" class="bg-container d-none">
+    <!-- PAGE 4 -->
+    <div id="page4"
+        class="bg-container d-none">
 
-        <!-- TOP CARD -->
         <div class="card1">
 
             <div class="profile-content d-flex flex-row">
@@ -163,7 +161,6 @@
         </div>
 
 
-        <!-- IPL RECORDS -->
         <div class="content-section">
 
             <h2 class="section-heading">
@@ -194,7 +191,6 @@
             </div>
 
 
-            <!-- VIDEOS -->
             <h2 class="section-heading">
                 Videos
             </h2>
@@ -202,44 +198,26 @@
             <div class="videos-container">
 
                 <div class="video-card">
-
                     <img src="https://d2clawv67efefq.cloudfront.net/ccbp-static-website/klrahul-img2.png"
                         alt="KL Rahul Video">
-
-                    <p>
-                        KL Rahul hits 337 for Karnataka
-                    </p>
-
+                    <p>KL Rahul hits 337 for Karnataka</p>
                 </div>
 
-
                 <div class="video-card">
-
                     <img src="https://d2clawv67efefq.cloudfront.net/ccbp-static-website/klrahul-img3.png"
                         alt="KL Rahul Video">
-
-                    <p>
-                        Incredible innings by KL Rahul
-                    </p>
-
+                    <p>Incredible innings by KL Rahul</p>
                 </div>
 
-
                 <div class="video-card">
-
                     <img src="https://d2clawv67efefq.cloudfront.net/ccbp-static-website/klrahul-img4.png"
                         alt="KL Rahul Video">
-
-                    <p>
-                        Single-handed win by KL Rahul
-                    </p>
-
+                    <p>Single-handed win by KL Rahul</p>
                 </div>
 
             </div>
 
 
-            <!-- BUTTON -->
             <div class="button-container d-flex flex-row">
 
                 <button class="btn btn-primary">
@@ -258,9 +236,9 @@
     </div>
 
 
-    <!-- PAGE 5 - HAPPY MEALS -->
+    <!-- PAGE 5 -->
     <div id="page5"
-        class="happy-meals-bg-container d-flex flex-column justify-content-end d-none">
+        class="happy-meals-bg-container d-none">
 
         <div class="food-card">
 
@@ -296,23 +274,14 @@
         function display(sectionId) {
 
             document.getElementById("sectionhome").classList.add("d-none");
-
             document.getElementById("advance-tech-page").classList.add("d-none");
-
             document.getElementById("page3").classList.add("d-none");
-
             document.getElementById("page4").classList.add("d-none");
-
             document.getElementById("page5").classList.add("d-none");
 
             document.getElementById(sectionId).classList.remove("d-none");
         }
 
-    </script>
-
-
-    <script type="text/javascript"
-        src="https://new-assets.ccbp.in/frontend/content/static-ccbp-ui-kit/static-ccbp-ui-kit.js">
     </script>
 
 </body>
