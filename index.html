@@ -2,6 +2,10 @@
 <html>
 
 <head>
+    <!-- Bootstrap CSS for layout and utility classes (d-none, d-flex, etc.) -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    
+    <!-- Your custom CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -11,7 +15,7 @@
     <div id="sectionhome" class="bg-project">
 
         <div class="image1">
-            <img src="https://d2clawv67efefq.cloudfront.net/ccbp-static-website/software-developer-img.png">
+            <img src="https://d2clawv67efefq.cloudfront.net/ccbp-static-website/software-developer-img.png" alt="Software Developer">
         </div>
 
         <div class="content1">
@@ -26,14 +30,14 @@
         <!-- FIRST ROW -->
         <div class="projects-list d-flex flex-row">
 
-            <div class="pro1">
+            <div class="pro1" style="cursor: pointer;">
                 <img src="https://d2clawv67efefq.cloudfront.net/ccbp-static-website/advanced-technologies-img.png"
-                    onclick="display('advance-tech-page')">
+                    onclick="display('advance-tech-page')" alt="Advanced Technologies">
             </div>
 
-            <div class="pro2">
+            <div class="pro2" style="cursor: pointer;">
                 <img src="https://d2clawv67efefq.cloudfront.net/ccbp-static-website/diwali-img.png"
-                    onclick="display('page3')">
+                    onclick="display('page3')" alt="Diwali">
             </div>
 
         </div>
@@ -41,14 +45,14 @@
         <!-- SECOND ROW -->
         <div class="projects-list2 d-flex flex-row">
 
-            <div class="pro3">
+            <div class="pro3" style="cursor: pointer;">
                 <img src="https://d2clawv67efefq.cloudfront.net/ccbp-static-website/food-img.png"
-                    onclick="display('page4')">
+                    onclick="display('page4')" alt="Food">
             </div>
 
-            <div class="pro4">
+            <div class="pro4" style="cursor: pointer;">
                 <img src="https://d2clawv67efefq.cloudfront.net/ccbp-static-website/news-paper-img.png"
-                    onclick="display('page5')">
+                    onclick="display('page5')" alt="News">
             </div>
 
         </div>
@@ -56,7 +60,7 @@
     </div>
 
 
-    <!-- PAGE 2 -->
+    <!-- PAGE 2: Advanced Technologies -->
     <div id="advance-tech-page"
         class="advance-tech-cover-page-bg-container d-none">
 
@@ -70,12 +74,12 @@
             </p>
 
             <div class="button d-flex flex-row justify-content-end">
-
-                <button class="button1">
+                <!-- Opens an external link in a new tab -->
+                <button class="button1 btn btn-primary mr-2" onclick="window.open('https://en.wikipedia.org/wiki/Technology', '_blank')">
                     Learn more
                 </button>
 
-                <button class="button2"
+                <button class="button2 btn btn-secondary"
                     onclick="display('sectionhome')">
                     BACK
                 </button>
@@ -87,7 +91,7 @@
     </div>
 
 
-    <!-- PAGE 3 -->
+    <!-- PAGE 3: News -->
     <div id="page3"
         class="news-bg-container d-none">
 
@@ -110,11 +114,11 @@
 
             <div class="btn d-flex flex-row">
 
-                <button class="button">
+                <button class="button btn btn-primary mr-2" onclick="window.open('https://ib.cricket/', '_blank')">
                     Read More
                 </button>
 
-                <button class="button"
+                <button class="button btn btn-secondary"
                     onclick="display('sectionhome')">
                     BACK
                 </button>
@@ -126,7 +130,7 @@
     </div>
 
 
-    <!-- PAGE 4 -->
+    <!-- PAGE 4: K.L. Rahul -->
     <div id="page4"
         class="bg-container d-none">
 
@@ -218,13 +222,13 @@
             </div>
 
 
-            <div class="button-container d-flex flex-row">
+            <div class="button-container d-flex flex-row mt-3">
 
-                <button class="btn btn-primary">
+                <button class="btn btn-primary mr-2" onclick="window.open('https://en.wikipedia.org/wiki/KL_Rahul', '_blank')">
                     View more
                 </button>
 
-                <button class="btn"
+                <button class="btn btn-secondary"
                     onclick="display('sectionhome')">
                     BACK
                 </button>
@@ -236,7 +240,7 @@
     </div>
 
 
-    <!-- PAGE 5 -->
+    <!-- PAGE 5: Happy Meals -->
     <div id="page5"
         class="happy-meals-bg-container d-none">
 
@@ -252,11 +256,11 @@
 
             <div class="btn d-flex flex-row">
 
-                <button class="btn">
+                <button class="btn btn-primary mr-2" onclick="window.open('https://www.mcdonalds.com/', '_blank')">
                     Book Now
                 </button>
 
-                <button class="btn"
+                <button class="btn btn-secondary"
                     onclick="display('sectionhome')">
                     BACK
                 </button>
@@ -272,13 +276,14 @@
     <script>
 
         function display(sectionId) {
-
+            // Hide all sections first
             document.getElementById("sectionhome").classList.add("d-none");
             document.getElementById("advance-tech-page").classList.add("d-none");
             document.getElementById("page3").classList.add("d-none");
             document.getElementById("page4").classList.add("d-none");
             document.getElementById("page5").classList.add("d-none");
 
+            // Show the targeted section
             document.getElementById(sectionId).classList.remove("d-none");
         }
 
